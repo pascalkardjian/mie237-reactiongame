@@ -3,7 +3,7 @@ import pygame
 
 screen = pygame.display.set_mode((500, 500))
 
-pygame.display.set_caption('Geeksforgeeks')
+pygame.display.set_caption('mie237')
 
 screen.fill((0,0,255))
 
