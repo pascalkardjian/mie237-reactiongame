@@ -8,7 +8,7 @@ GREEN = (0, 255, 0)
 LIGHT_GREY = (100, 100, 100)
 
 # Game Mode
-binary = True
+binary = False
 integer = False
 
 def board_create(width=4, height=None):
@@ -125,17 +125,17 @@ while running:
 
         if (integer or binary):
             if target_sum == int(answer):
-                sum_result = 'Correct'
+                sum_result = 'Correct Summation'
             else:
-                sum_result = 'Incorrect'
+                sum_result = 'Incorrect Summation'
         else:
-            sum_result = 'No'
+            sum_result = 'N/A'
 
 
         if clicked_order == pattern[:len(clicked_order)+1]:
-            print(f'Trial #{trial_counter}: Pattern: {pattern} -> Clicked Order {clicked_order}\nCorrect Sequence\nTarget Sum: {str(target_sum)} -> Entered Sum: {answer}\n{sum_result} Summation\nDuration: {duration}')
+            print(f'Trial #{trial_counter}: Pattern: {pattern} -> Clicked Order {clicked_order}\nCorrect Sequence\nTarget Sum: {str(target_sum)} -> Entered Sum: {answer}\n{sum_result}\nDuration: {duration}')
         else:
-            print(f'Trial #{trial_counter}: Pattern: {pattern} -> Clicked Order {clicked_order}\nIncorrect Sequence\nTarget Sum: {str(target_sum)} -> Entered Sum: {answer}\n{sum_result} Summation\nDuration: {duration}')
+            print(f'Trial #{trial_counter}: Pattern: {pattern} -> Clicked Order {clicked_order}\nIncorrect Sequence\nTarget Sum: {str(target_sum)} -> Entered Sum: {answer}\n{sum_result}\nDuration: {duration}')
 
         time.sleep(3)
         start_time = 0
@@ -152,3 +152,4 @@ while running:
     pygame.display.flip()
 
 pygame.quit()  
+
