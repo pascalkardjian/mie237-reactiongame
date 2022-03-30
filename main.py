@@ -8,7 +8,7 @@ GREEN = (0, 255, 0)
 LIGHT_GREY = (100, 100, 100)
 
 # Game Mode
-binary = False
+binary = True
 integer = False
 
 def board_create(width=4, height=None):
@@ -152,4 +152,3 @@ while running:
     pygame.display.flip()
 
 pygame.quit()  
-
