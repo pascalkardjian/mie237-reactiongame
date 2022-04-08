@@ -26,4 +26,4 @@ When this occurs when playing the binary or integer version, the system will awa
 Whether you ran it in command line or in an IDE, all the data will be printed in the console and seperated by trial #. When playing the standard mode, the data will be incomplete for anything related to the summation of numbers.
 
 # 4. Improvements to be made
-Better GUI for more intuitive user feedback.
+Better GUI for more intuitive user feedback and a more dynamic way to change game settings.
