@@ -9,7 +9,7 @@ Either way, there is not much difference between the two.
 
 Make sure you have all the necessary libraries also downloaded (namely pygame, time, ranodm, etc.).
 
-#2. Running It
+# 2. Running It
 There are 3 different game modes: standard, binary and integer.
 
 The standard mode only shows red squares in a pattern which need to be replicated.
@@ -22,8 +22,8 @@ For the standard version, keep both False.
 During the game, the last square you click in the pattern will not be highlighted and this is your indication that you have clicked the same amount of squares as what was shown in the pattern (and so the round is over).
 When this occurs when playing the binary or integer version, the system will await a response from the user. Make sure to type a numerical value (representing the sum of numbers shown) on your keyboard and click enter for the next round to start.
 
-#3. Reading Data
+# 3. Reading Data
 Whether you ran it in command line or in an IDE, all the data will be printed in the console and seperated by trial #. When playing the standard mode, the data will be incomplete for anything related to the summation of numbers.
 
-#4. Improvements to be made
+# 4. Improvements to be made
 Better GUI for more intuitive user feedback.
