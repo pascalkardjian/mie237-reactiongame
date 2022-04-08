@@ -7,7 +7,7 @@ RED = (255, 255, 255)
 GREEN = (0, 255, 0)
 LIGHT_GREY = (100, 100, 100)
 
-# Game Mode
+# GAME MODE
 binary = True
 integer = False
 
@@ -68,7 +68,7 @@ def show_pattern():
         
 
         pygame.display.flip()
-        time.sleep(0.5)
+        time.sleep(0.5) # amount of time each square is flashed for
     
     return sum(num_list)
 
@@ -133,11 +133,11 @@ while running:
 
 
         if clicked_order == pattern[:len(clicked_order)+1]:
-            print(f'Trial #{trial_counter}: Pattern: {pattern} -> Clicked Order {clicked_order}\nCorrect Sequence\nTarget Sum: {str(target_sum)} -> Entered Sum: {answer}\n{sum_result}\nDuration: {duration}')
+            print(f'\nTrial #{trial_counter}: Pattern: {pattern} -> Clicked Order {clicked_order}\nCorrect Sequence\nTarget Sum: {str(target_sum)} -> Entered Sum: {answer}\n{sum_result}\nDuration: {duration}')
         else:
-            print(f'Trial #{trial_counter}: Pattern: {pattern} -> Clicked Order {clicked_order}\nIncorrect Sequence\nTarget Sum: {str(target_sum)} -> Entered Sum: {answer}\n{sum_result}\nDuration: {duration}')
+            print(f'\nTrial #{trial_counter}: Pattern: {pattern} -> Clicked Order {clicked_order}\nIncorrect Sequence\nTarget Sum: {str(target_sum)} -> Entered Sum: {answer}\n{sum_result}\nDuration: {duration}')
 
-        time.sleep(3)
+        time.sleep(3) # waiting time between each round
         start_time = 0
         end_time = 0
         target_sum = 0
