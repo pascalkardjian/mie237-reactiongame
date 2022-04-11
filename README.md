@@ -7,7 +7,7 @@ Make sure you have the most recent version of Python installed on your computer 
 After downloading Python to your computer, you can run the .py file through the Command Line or using an IDE of your choice. 
 Either way, there is not much difference between the two.
 
-Make sure you have all the necessary libraries also downloaded (namely pygame, time, ranodm, etc.).
+Make sure you have all the necessary libraries also downloaded (namely pygame, time, random, etc.).
 
 # 2. Running It
 There are 3 different game modes: standard, binary and integer.
